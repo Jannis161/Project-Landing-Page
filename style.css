@@ -5,9 +5,29 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.main {
+    background-color: #1f2937;
+}
+
+.main
+h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header,
+p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
