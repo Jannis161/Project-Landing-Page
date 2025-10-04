@@ -80,8 +80,14 @@ p {
     padding: 20px;
     border-radius: 12px;
     margin: 20px 50px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
 
 }
+
 
 
 /* Flex */
@@ -101,6 +107,30 @@ body {
 
 .header h1 {
     flex-grow: 0.9;
+}
+
+/* Main1 */
+
+
+.main1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    padding: 40px 20px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 400px;
+    max-height: 300px;
 }
 
 
