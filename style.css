@@ -9,8 +9,9 @@ body {
 }
 
 .header p {
-    font-size: 18px;
-    color: #E5e7eb
+    font-size: 16px;
+    color: #E5e7eb;
+    font-weight: lighter;
 }
 
 .header h1 {
@@ -33,7 +34,8 @@ h2 {
 .main1
 p {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 
@@ -52,9 +54,18 @@ button {
 .main2,
 h2 {
     color: #1f2937;
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 700;
 }
+
+.main2
+.text {
+    color: #777f8a;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+
 
 .main3 {
     background-color: #e5e7eb;
@@ -64,7 +75,7 @@ h2 {
 .quote {
     color: #4b5563;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: lighter;
 }
 
 
@@ -92,7 +103,7 @@ p {
 .boxInmain4 {
     background-color: #3882f6;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     border-radius: 12px;
     margin: 75px 500px;
 }
@@ -101,9 +112,9 @@ p {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
-    padding: 6px 30px;
+    padding: 2px 40px;
     border: #f9faf8 solid 2px;
     border-radius: 8px;
     cursor: pointer;
@@ -112,7 +123,20 @@ button {
 img {
     width: 100%;
     border-radius: 12px;
+}
 
+.main1 img {
+    border-radius: 0px;
+}
+
+.footer p {
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: #1f2937;
 }
 
 /* Flex */
@@ -128,10 +152,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    padding-right: 80px;
 }
 
 .header h1 {
-    flex-grow: 0.9;
+    flex-grow: 0.95;
+    text-align: left;
+    padding-left: 695px;
 }
 
 /* Main1 */
@@ -143,12 +170,20 @@ body {
     justify-content: center;
     text-align: left;
     padding: 20px 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .leftSide {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+}
+
+.main1
+button {
+    width: 150px;
+    margin-top: 10px;
 }
 
 img {
@@ -191,7 +226,6 @@ img {
 
 .text {
     margin-top: 8px;
-    text-align: center;
 }
 
 /* Main3 */
@@ -222,38 +256,9 @@ img {
     padding-right: 150px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer */
 
 .footer {
     text-align: center;
-    padding: 10px 0;
-    margin-top: auto;
+    padding: 20px
 }
